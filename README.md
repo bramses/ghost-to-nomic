@@ -35,6 +35,8 @@ login to nomic
 
 `nomic login [YOUR_API_KEY]` ([Nomic Atlas Quickstart | Nomic Atlas Documentation](https://docs.nomic.ai/atlas/introduction/quick-start))
 
+![Screenshot 2024-02-13 10-04-34](https://github.com/bramses/ghost-to-nomic/assets/3282661/e5d8b9e3-fff5-4469-8bae-0cd6130538ba)
+
 
 run the atlas script
 
