@@ -15,6 +15,7 @@ DESCRIPTION = 'A embedded collection of blog posts on ' + WEB_URL + '.' + ' The 
 dataset = atlas.map_data(data=my_data,
                           indexed_field=INDEXED_FIELD,  
                           description=DESCRIPTION,
+                          id_field='id'
                           )
 dataset.maps[0]  # to view map build status
 
