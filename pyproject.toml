@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ghost-to-nomic"
+version = "0.1.0"
+description = ""
+authors = ["Bram Adams <3282661+bramses@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "ghost_to_nomic"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nomic = "^3.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

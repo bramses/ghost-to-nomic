@@ -20,3 +20,22 @@ run `python main.py {YOUR_FILENAME}`
 upload and use `plaintext` or `html` as index (html will include image links and stuff but will introduce noise) or `title`
 
 ![Screenshot 2024-02-12 19-51-44](https://github.com/bramses/ghost-to-nomic/assets/3282661/6f7076e5-bde7-4f5d-90e9-9366c9d809f6)
+
+### or in python
+
+start a poetry shell 
+
+`poetry shell`
+
+poetry install
+
+`poetry install`
+
+login to nomic
+
+`nomic login [YOUR_API_KEY]` ([Nomic Atlas Quickstart | Nomic Atlas Documentation](https://docs.nomic.ai/atlas/introduction/quick-start))
+
+
+run the atlas script
+
+`python atlas.py`
