@@ -44,7 +44,7 @@ def fetch_posts(json, html = True, pages = False, published = True, visibility =
                     for tag in json['db'][0]['data']['tags']:
                         if tag['id'] == tag_id:
                             tags.append(tag['name'])
-            post['tags'] = tags
+            post['post_tags'] = tags
 
         if post['type'] == 'post':
             del post['type']
@@ -67,6 +67,7 @@ def main():
     # pretty print to json file
     with open('posts.json', 'w') as f:
         json.dump(result, f, indent=4)
+    print('Done fetching posts with posts length:', len(result))
 
 if __name__ == '__main__':
     main()
